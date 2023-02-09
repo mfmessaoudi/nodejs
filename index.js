@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import Blog from "./model/Blog.js";
 
 
-mongoose.connect("mongodb+srv://geek:test123@cluster0.ay26dwo.mongodb.net/?retryWrites=true&w=majority", (err, data) => {
+mongoose.connect("mongodb+srv://toto:titi@cluster0.xxxx.mongodb.net/?retryWrites=true&w=majority", (err, data) => {
     if (err) throw err;
     console.log("connected to db");
     
