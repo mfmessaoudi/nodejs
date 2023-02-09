@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-mongoose.connect("mongodb+srv://toto:test213@cluster0.ay26dwo.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://xxxxxx");
 
 const {Schema, model} = mongoose;
 mongoose.set('strictQuery', false);
