@@ -1,0 +1,2 @@
+nodejs -v
+npm -v
